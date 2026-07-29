@@ -96,11 +96,9 @@ export const sortCards = (cards) => {
 };
 
 export const returnFocusOnCardEditOrDelete = (isDelete, id) => {
-  const el = document.querySelector(
-    `${isDelete ? ".delete-btn" : ".edit-btn"}[data-id="${id}"]`,
-  );
-  const prevSibling = el?.parentElement.parentElement.previousElementSibling;
-  const nextSibling = el?.parentElement.parentElement.nextElementSibling;
+  const el = document.querySelector(`${".single-card"}[data-id="${id}"]`);
+  const prevSibling = el?.previousElementSibling;
+  const nextSibling = el?.nextElementSibling;
 
   if (isDelete) {
     nextSibling ? nextSibling?.focus() : prevSibling?.focus();
@@ -108,7 +106,7 @@ export const returnFocusOnCardEditOrDelete = (isDelete, id) => {
     return;
   }
 
-  el && el.parentElement.parentElement.parentElement.focus();
+  el && el.focus();
 };
 
 export const useFocusTrap = ({
