@@ -102,7 +102,6 @@ export const returnFocusOnCardEditOrDelete = (isDelete, id) => {
 
   if (isDelete) {
     nextSibling ? nextSibling?.focus() : prevSibling?.focus();
-
     return;
   }
 
