@@ -36,6 +36,7 @@ const SingleCard = ({ id, question, answer, category, knownCount, index }) => {
   return (
     <div
       className="single-card"
+      data-id={id}
       onMouseLeave={() => setShowCardDropdown(false)}
       key={id}
       tabIndex={0}
