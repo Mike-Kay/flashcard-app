@@ -262,6 +262,7 @@ const reducer = (state, action) => {
   if (action.type === CLOSE_MODAL) {
     const { cardToEdit, isDelete } = state;
     const id = cardToEdit.id;
+    // return focus on modal cancel/close
     const el = document.querySelector(`${".single-card"}[data-id="${id}"]`);
     el && el.focus();
 
