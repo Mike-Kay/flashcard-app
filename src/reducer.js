@@ -262,10 +262,8 @@ const reducer = (state, action) => {
   if (action.type === CLOSE_MODAL) {
     const { cardToEdit, isDelete } = state;
     const id = cardToEdit.id;
-    const el = document.querySelector(
-      `${isDelete ? ".delete-btn" : ".edit-btn"}[data-id="${id}"]`,
-    );
-    el && el.parentElement.parentElement.focus();
+    const el = document.querySelector(`${".single-card"}[data-id="${id}"]`);
+    el && el.focus();
 
     return { ...state, isDelete: false, isEditting: false, cardToEdit: {} };
   }
