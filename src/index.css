@@ -73,6 +73,11 @@
   --shadow-pink: 1px 1px 0 0px var(--clr-pink-700);
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   background: var(--backgroundColor);
   font-family: "Poppins-Regular";
