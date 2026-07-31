@@ -615,7 +615,6 @@ button.btn.btn-yellow {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   padding-bottom: 2rem;
-  width: 100%;
 }
 .card-form {
   background: var(--neutral-0);
