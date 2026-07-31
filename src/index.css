@@ -73,15 +73,14 @@
   --shadow-pink: 1px 1px 0 0px var(--clr-pink-700);
 }
 
-html,
-body {
-  overflow-x: hidden;
+html {
 }
 
 body {
   background: var(--backgroundColor);
   font-family: "Poppins-Regular";
   line-height: 1.75;
+  overflow-x: hidden;
   /* width: 100%; */
 }
 
@@ -129,7 +128,7 @@ h5 {
 }
 .centered {
   width: 95%;
-  /* max-width: var(--max-width); */
+  max-width: var(--max-width);
   margin: 0 auto;
 }
 .btn {
