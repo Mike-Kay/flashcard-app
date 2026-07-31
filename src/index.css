@@ -75,6 +75,7 @@ body {
   background: var(--backgroundColor);
   font-family: "Poppins-Regular";
   line-height: 1.75;
+  width: 100%;
 }
 
 p {
@@ -120,7 +121,7 @@ h5 {
   object-fit: cover;
 }
 .centered {
-  width: 95%;
+  width: 100%;
   max-width: var(--max-width);
   margin: 0 auto;
 }
