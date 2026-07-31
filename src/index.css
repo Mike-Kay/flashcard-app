@@ -616,6 +616,7 @@ button.btn.btn-yellow {
 .allCards-section {
   display: grid;
   padding-bottom: 2rem;
+  width: 100%;
 }
 .card-form {
   background: var(--neutral-0);
