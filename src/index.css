@@ -624,7 +624,7 @@ button.btn.btn-yellow {
   border-radius: var(--borderRadius-3);
   box-shadow: var(--shadow-2);
   padding: 1rem;
-  /* width: 100%; */
+  width: 100%;
 }
 .form-row {
   display: flex;
@@ -686,7 +686,7 @@ p.error {
   margin-top: 1.375rem;
 }
 .all-cards {
-  /* width: 100%; */
+  width: 100%;
   margin-top: 2.5rem;
 }
 .all-cards-container {
