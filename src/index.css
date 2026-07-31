@@ -642,7 +642,7 @@ button.btn.btn-yellow {
   font-size: 1rem;
   transition: var(--transition);
   width: 100%;
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 .form-row input:hover,
 .form-row textarea:hover {
