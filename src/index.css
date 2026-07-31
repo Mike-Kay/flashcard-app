@@ -123,13 +123,13 @@ h5 {
 }
 
 .img {
-  /* width: 100%; */
+  width: 100%;
   display: block;
   object-fit: cover;
 }
 .centered {
-  width: 90%;
-  max-width: var(--max-width);
+  width: 95%;
+  /* max-width: var(--max-width); */
   margin: 0 auto;
 }
 .btn {
