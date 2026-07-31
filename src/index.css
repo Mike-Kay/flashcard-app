@@ -613,7 +613,7 @@ button.btn.btn-yellow {
 /* Allcards Section */
 .allCards-section {
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
+  /* grid-template-columns: minmax(0, 1fr); */
   padding-bottom: 2rem;
 }
 .card-form {
@@ -906,7 +906,7 @@ p.error {
   top: 0;
   left: 0;
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
+  /* grid-template-columns: minmax(0, 1fr); */
   place-items: center;
 }
 .modal {
