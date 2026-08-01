@@ -94,4 +94,4 @@ Claude was provided as the AI agent for this project, and it helped me hasten my
 
 ## Author
 
-- Frontend Mentor - [Mike-Kay](https://www.frontendmentor.io/profile/Mike-Kay)
+- [Mike-Kay](https://www.frontendmentor.io/profile/Mike-Kay)
